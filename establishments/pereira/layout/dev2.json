@@ -1,0 +1,25 @@
+{
+  "name": "Pereira",
+  "description": "Desde 2004, a varanda mais charmosa de Salvador",
+  "whatsapp_number": "7132646464",
+  "instagram_account": "pereira_restaurante",
+  "layout": {
+    "image": {
+      "banner_url": "https://raw.githubusercontent.com/menurapp/public/main/establishments/pereira/layout/pereira-banner-dev2.png",
+      "title_url": "https://raw.githubusercontent.com/menurapp/public/main/establishments/pereira/layout/pereira-title-dev.png"
+    },
+    "text": {
+      "default_color": "#552800",
+      "title_color": "#FA8615",
+      "qrcode_color": "white",
+      "qrcode_title_color": "#3f4d2c",
+      "default_font": "Nunito",
+      "title_font_style": "uppercase"
+    },
+    "background": {
+      "default_color": "#552800",
+      "container_color": "#DFC296",
+      "qrcode_color": "#3A8A94"
+    }
+  }
+}
