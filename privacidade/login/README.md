@@ -1,6 +1,6 @@
 ## Privacidade
 
-Precisamos te identificar e respeitamos sua privacidade
+Precisamos te identificar e respeitamos sua privacidade.
 
 ### Login no Cardápio Digital
 
