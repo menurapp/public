@@ -1,8 +1,8 @@
-## Privacidade
+# Privacidade
 
 Precisamos te identificar e respeitamos sua privacidade.
 
-### Login no Cardápio Digital
+## Login no Cardápio Digital
 
 Você está usando a plataforma Menur para fazer pedidos no cardápio digital. Precisamos de alguns dados pessoais.
 
@@ -20,6 +20,6 @@ Optanto pela identificação com Google, Instagram, Apple ID (ou outros), será 
 
 Se você **NÃO CONCORDA** com o uso dos seus dados pessoais, faça seu pedido diretamente com o estabelecimento à moda antiga.
 
-### Saiba mais
+## Saiba mais
 
 Conheça também os [Termos de Serviço](../../../termos/cardapio) do nosso Cardápio Digital.
