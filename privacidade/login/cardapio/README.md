@@ -22,4 +22,4 @@ Se você **NÃO CONCORDA** com o uso dos seus dados pessoais, faça seu pedido d
 
 ### Saiba mais
 
-Conheça também o [Termo de Serviço](../../../termos/cardapio) do nosso Cardápio Digital.
+Conheça também os [Termos de Serviço](../../../termos/cardapio) do nosso Cardápio Digital.
