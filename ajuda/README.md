@@ -24,7 +24,9 @@ Funções básicas do Markdown
 
 Texto em **negrito**, _Itálico_ e `com fundo preenchido`
 
-[Aqui um texto com link](aqui_o_link) e também ![A descrição de uma imagem](e_o_link_da_imagem)
+[Aqui um texto com link](aqui_o_link) e também...
+
+![A descrição de uma imagem](e_o_link_da_imagem)
 ```
 
 Isto que tem aqui é só o básico, que já atende a maior parte das necessidades na escrita de documentos. Se você quer mais detalhes e conhecer mais funções do Markdown, veja os detalhes aqui 👉
