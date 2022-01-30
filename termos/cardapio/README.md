@@ -35,14 +35,14 @@ O estabelecimento deve prover informações objetivas, precisas, não-ofensivas 
 
 Deve presar pelo bom atendimento aos seus clientes, além de assegurar o cumprimento de todas as leis vigentes e aplicáveis ao seu funcionamento.
 
-Para todas as necessidades do cliente não cobertas pela plataforma Menur, o estabelecimento deve oferecer uma solução viável quando apliçavel.
+Para todas as necessidades do cliente não cobertas pela plataforma Menur, o estabelecimento deve oferecer uma solução viável quando aplicável.
 
 É de inteira responsabilidade do estabelecimento a procedência, qualidade, legalidade e legitimidade do produto comercializado, bem como a sua produção, distribuição, devolução e restituição.
 
 ### Responsabilidades do Menur
 
-O objetivo do Menur é tornar cada vez mais simples, leve, rápida e prazerosa a experiência dos consumidores em estabelecimentos comerciais. Temos o compromisso e a responsabilidade de manter o serviço disponível e com desempenho que não comprometa o seu bom funcionamento.
+O objetivo do Menur é tornar cada vez mais simples, leve, rápida e prazerosa a experiência dos consumidores em estabelecimentos comerciais. Temos o compromisso e a responsabilidade de manter a plataforma disponível garantindo o seu bom funcionamento.
 
-Temos o compromisso com o zelo pela privacidade dos seus dados. Qualquer dado pessoal que precisarmos, explicaremos o propósito e o que será feito. Não repassaremos seus dados pessoais desnecessariamente e, sempre que passarmos, será para viabilizar o serviço. Sempre deixaremos claro nos links de aviso de privacidade, tais como:
+Temos o compromisso com a privacidade dos seus dados. Qualquer dado pessoal que precisarmos, explicaremos o propósito e o que será feito. Não repassaremos seus dados pessoais desnecessariamente e, sempre que passarmos, será para viabilizar o serviço. Sempre deixaremos claro nos links de aviso de privacidade, tais como:
 
-- [Fazendo login no cardápio](../../privacidade/login)
+- [Fazendo login no cardápio](../../privacidade/login/cardapio)
