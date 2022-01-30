@@ -25,7 +25,7 @@ Todos os pedidos que você fizer serão direcionados **imediatamente** para a pr
 
 Você poderá solicitar o cancelamento de pedidos seguindo as políticas do estabelecimento. Geralmente pode ser feito até antes do início do preparo. Consulte o estabelecimento.
 
-Alguns estabelecimentos exigem o pagamento antes do preparo, outros após o consumo. Para todos os casos, os pedidos devem ser pagoss seguindo a política do estabelecimento.
+Alguns estabelecimentos exigem o pagamento antes do preparo, outros após o consumo. Para todos os casos, os pedidos devem ser pagos seguindo a política do estabelecimento.
 
 Nas informações digitadas, você não deve usar palavras nem termos ofensivos ou pejorativos.
 
