@@ -19,3 +19,7 @@ Optanto pela identificação com Google, Instagram, Apple ID (ou outros), será 
 **NENHUM OUTRO DADO** pessoal será acessado pelo Menur durante este procedimento de identificação.
 
 Se você **NÃO CONCORDA** com o uso dos seus dados pessoais, faça seu pedido diretamente com o estabelecimento à moda antiga.
+
+### Saiba mais
+
+Conheça também o [Termo de Serviço](../../termos/cardapio) do nosso Cardápio Digital.
