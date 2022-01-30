@@ -23,7 +23,7 @@ O Menur utiliza o conceito de compra fácil com poucos toques na tela (_one-clic
 
 Todos os pedidos que você fizer serão direcionados **imediatamente** para a produção. Você deverá efetuar o pagamento diretamente com o estabelecimento ou utilizando o auto-pagamento no cardápio (quando disponível) de tudo que você pedir.
 
-Você poderá solicitar o cancelamento de pedidos seguindo as políticas do estabelecimento. Geralmente pode ser feito até antes do início do preparo. Consulte o estabelecimento.
+Você poderá solicitar o cancelamento de pedidos seguindo as políticas do estabelecimento. Geralmente pode ser feito sem ônus para você até antes do início do preparo. Para não haver dúvidas, consulte as regras com o próprio estabelecimento.
 
 Alguns estabelecimentos exigem o pagamento antes do preparo, outros após o consumo. Para todos os casos, os pedidos devem ser pagos seguindo a política do estabelecimento.
 
