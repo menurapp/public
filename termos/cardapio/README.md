@@ -2,7 +2,7 @@
 
 Você está usando o cardápio digital da plataforma Menur como cliente de um estabelecimento. Vamos explicar as funcionalidades e as responsabilidades do Menur e suas.
 
-### Cardápio Digital
+### Termos do Cardápio Digital
 
 O cardápio que você está acessando é provido pela plataforma Menur. Todos os dados cadastrados no cardápio foram feitos pelo estabelecimento. Aqui alguns exemplos:
 
@@ -17,7 +17,7 @@ O cardápio que você está acessando é provido pela plataforma Menur. Todos os
 
 Os dados, imagens, termos e palavras utilizadas no cardápio são de responsabilidade do próprio estabelecimento e não do Menur.
 
-### Suas responsabilidades como cliente
+### Suas responsabilidades como usuário
 
 O Menur utiliza o conceito de compra fácil com poucos toques na tela (_one-click-buy_).
 
