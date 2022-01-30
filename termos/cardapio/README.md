@@ -45,4 +45,4 @@ O objetivo do Menur é tornar cada vez mais simples, leve, rápida e prazerosa a
 
 Temos o compromisso com a privacidade dos seus dados. Qualquer dado pessoal que precisarmos, explicaremos o propósito e o que será feito. Não repassaremos seus dados pessoais desnecessariamente e, sempre que passarmos, será para viabilizar o serviço. Sempre deixaremos claro nos links de aviso de privacidade, tais como:
 
-- [Fazendo login no cardápio](../../privacidade/login/cardapio)
+- [Fazendo login no cardápio](../../privacidade/cardapio/login)
