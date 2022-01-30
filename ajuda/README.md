@@ -5,11 +5,13 @@
 Se você preferir, você pode criar e modificar os documentos utilizando ferramentos off-line. Existem algumas que depois relacionaremos aqui. Caso siga este caminho, você precisará utilizar outra ferramenta para enviar o seu trabalho para o servidor.
 
 Independente do modo de trabalho que você escolher, após enviar as mudanças ou novos documentos a publicação demorará certa de 2 minutos para aparecer aqui no site.
-### Markdown
+### Sobre o padrão Markdown
 
 Vamos conhecer um pouco mais sobre o padrão utilizado para escrever os documentos. O Markdown é simples de usar e fácil de entender. Basta seguir algumas dicas para formatar, colocar imagens, links, negrito, itálico, listas numerdas, listas sem numeração, dentre outros recursos.
 
 ```markdown
+Funções básicas do Markdown
+
 # Cabeçalho 1
 ## Cabeçalho 2
 ### Cabeçalho 3
