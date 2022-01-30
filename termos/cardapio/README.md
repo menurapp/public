@@ -26,9 +26,11 @@ Você poderá solicitar o cancelamento de pedidos seguindo as políticas do esta
 
 Alguns estabelecimentos exigem o pagamento antes do preparo, outros após o consumo. Para todos os casos, os pedidos devem ser pagoss seguindo a política do estabelecimento.
 
+Nas informações digitadas, você não deve usar palavras nem termos ofensivos ou pejorativos.
+
 ### Responsabilidades do estabelecimento
 
-O estabelecimento deve prover informações objetivas e precisas à respeito dos produtos. Bem como as fotos escolhidas devem representar as características reais dos produtos.
+O estabelecimento deve prover informações objetivas, precisas, não-ofensivas à respeito dos produtos. Bem como as fotos escolhidas devem representar as características reais dos produtos.
 
 Deve presar pelo bom atendimento aos seus clientes, além de assegurar o cumprimento de todas as leis vigentes e aplicáveis ao seu funcionamento.
 
