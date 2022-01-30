@@ -1,6 +1,7 @@
 ## Termos de Serviço
 
 Você está usando o cardápio digital da plataforma Menur como cliente de um estabelecimento. Vamos explicar as funcionalidades e as responsabilidades do Menur e suas.
+
 ### Cardápio Digital
 
 O cardápio que você está acessando é provido pela plataforma Menur. Todos os dados cadastrados no cardápio foram feitos pelo estabelecimento. Aqui alguns exemplos:
@@ -18,7 +19,7 @@ Os dados, imagens, termos e palavras utilizadas no cardápio são de responsabil
 
 ### Suas responsabilidades como cliente
 
-O Menur utiliza o conceito de compra fácil com poucos toques na tela (*one-click-buy*).
+O Menur utiliza o conceito de compra fácil com poucos toques na tela (_one-click-buy_).
 
 Todos os pedidos que você fizer serão direcionados **imediatamente** para a produção. Você deverá efetuar o pagamento diretamente com o estabelecimento ou utilizando o auto-pagamento no cardápio (quando disponível) de tudo que você pedir.
 
@@ -36,5 +37,12 @@ Deve presar pelo bom atendimento aos seus clientes, além de assegurar o cumprim
 
 Para todas as necessidades do cliente não cobertas pela plataforma Menur, o estabelecimento deve oferecer uma solução viável quando apliçavel.
 
+É de inteira responsabilidade do estabelecimento a procedência, qualidade, legalidade e legitimidade do produto comercializado, bem como a sua produção, distribuição, devolução e restituição.
+
 ### Responsabilidades do Menur
 
+O objetivo do Menur é tornar cada vez mais simples, leve, rápida e prazerosa a experiência dos consumidores em estabelecimentos comerciais. Temos o compromisso e a responsabilidade de manter o serviço disponível e com desempenho que não comprometa o seu bom funcionamento.
+
+Temos o compromisso com o zelo pela privacidade dos seus dados. Qualquer dado pessoal que precisarmos, explicaremos o propósito e o que será feito. Não repassaremos seus dados pessoais desnecessariamente e, sempre que passarmos, será para viabilizar o serviço. Sempre deixaremos claro nos links de aviso de privacidade, tais como:
+
+- [Fazendo login no cardápio](../../privacidade/login)
