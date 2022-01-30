@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Ajuda para escrever os documentos
 
-You can use the [editor on GitHub](https://github.com/menurapp/public/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+É possível editar esta e qualquer outra página deste site pelo [editor on-line no GitHub](https://github.com/menurapp/public/edit/main/ajuda/README.md). Por lá é possível, inclusive, previsualizar as mudanças antes mesmo de publicar. Os documentos estão escritos utilizando um padrão chamado **Markdown**.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Se você preferir, você pode criar e modificar os documentos utilizando ferramentos off-line. Existem algumas que depois relacionaremos aqui. Caso siga este caminho, você precisará utilizar outra ferramenta para enviar o seu trabalho para o servidor.
 
+Independente do modo de trabalho que você escolher, após enviar as mudanças ou novos documentos a publicação demorará certa de 2 minutos para aparecer aqui no site.
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Vamos conhecer um pouco mais sobre o padrão utilizado para escrever os documentos. O Markdown é simples de usar e fácil de entender. Basta seguir algumas dicas para formatar, colocar imagens, links, negrito, itálico, listas numerdas, listas sem numeração, dentre outros recursos.
 
 ```markdown
-Syntax highlighted code block
+# Cabeçalho 1
+## Cabeçalho 2
+### Cabeçalho 3
 
-# Header 1
-## Header 2
-### Header 3
+- Lista
+- Não numerada
 
-- Bulleted
-- List
+1. Lista
+2. Numerada
 
-1. Numbered
-2. List
+Texto em **negrito**, _Itálico_ e `com fundo preenchido`
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+[Aqui um texto com link](aqui_o_link) e também ![A descrição de uma imagem](e_o_link_da_imagem)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Isto que tem aqui é só o básico, que já atende a maior parte das necessidades na escrita de documentos. Se você quer mais detalhes e conhecer mais funções do Markdown, veja os detalhes aqui 👉
+ [Sintaxe básica de escrita e formatação no GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+### Dúvidas
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/menurapp/public/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Lembre que todos os documentos que estão publicados aqui neste site são públicos. Você pode [navegar pelo reposítório](https://github.com/menurapp/public) que contém a versão mais recente de cada um deles e ver como foram escritos usando o Markdown.
