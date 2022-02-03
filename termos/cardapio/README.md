@@ -1,6 +1,6 @@
 # Termos de Serviço
 
-Você está usando o cardápio digital da plataforma Menur como cliente de um estabelecimento. Vamos explicar as funcionalidades e as responsabilidades do Menur e suas.
+**Você está usando o cardápio digital da plataforma Menur como cliente de um estabelecimento. Vamos explicar as funcionalidades e as responsabilidades do Menur e suas.**
 
 ## Termos do Cardápio Digital
 
