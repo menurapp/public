@@ -1,3 +1,3 @@
-
-
-[Ajuda](ajuda)
+- [Termos de Serviço](termos)
+- [Política de Privacidade](privacidade)
+- [Ajuda](ajuda)
