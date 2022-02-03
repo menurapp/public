@@ -2,4 +2,4 @@
 
 Colocar uma descrição explicando que nos preocupamos em fazer documentos de fácil leitura e que separamos por partes do Menur.
 
-- [Termos do Cardápio Digital](cardapio)
+- [Cardápio Digital](cardapio)
