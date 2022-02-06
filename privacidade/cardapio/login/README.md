@@ -8,7 +8,7 @@ Você está usando a plataforma Menur para fazer pedidos no cardápio digital. P
 
 O Menur enviará o seu **NOME** para o estabelecimento do cardápio. Só assim eles identificarão o seu pedido.
 
-Na retirada (ou recebimento) dos pedidos também utilizarão o seu **NOME** para identificação.
+Na retirada (ou recebimento) dos pedidos eles terão acesso ao seu **NOME** para te identificar.
 
 O seu **E-MAIL NÃO SERÁ** enviado para o estabelecimento. Ele permanecerá seguro na plataforma Menur.
 
