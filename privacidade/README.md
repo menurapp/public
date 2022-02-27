@@ -1,5 +1,5 @@
 # Política de Privacidade
 
-Colocar uma descrição explicando que nos preocupamos em fazer documentos de fácil leitura e que separamos por funcionalidades do Menur.
+Temos o compromisso de oferecer a você documentos práticos e de fácil leitura. Aqui você encontra nossa política de privacidade separada por tópicos de interesse:
 
 - [Login no Cardápio Digital](cardapio/login)

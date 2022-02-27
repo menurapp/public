@@ -1,5 +1,5 @@
 # Termos de Serviço
 
-Colocar uma descrição explicando que nos preocupamos em fazer documentos de fácil leitura e que separamos por partes do Menur.
+Temos o compromisso de oferecer a você documentos práticos e de fácil leitura. Aqui você encontra os termos e condições separados por tipo de serviço:
 
 - [Cardápio Digital](cardapio)
