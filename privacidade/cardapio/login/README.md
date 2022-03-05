@@ -8,15 +8,11 @@ Você está usando a plataforma Menur para fazer pedidos no cardápio digital. P
 
 O Menur enviará o seu **NOME** para o estabelecimento do cardápio. Só assim eles identificarão o seu pedido.
 
-Na retirada (ou recebimento) dos pedidos eles terão acesso ao seu **NOME** para te identificar.
+O seu **E-MAIL NÃO SERÁ** enviado para o estabelecimento. Ele permanecerá seguro na plataforma e será utilizado para identificar os seus pedidos.
 
-O seu **E-MAIL NÃO SERÁ** enviado para o estabelecimento. Ele permanecerá seguro na plataforma Menur.
+Optanto pelo login com Google ou Apple, acessaremos seu **NOME** e **E-MAIL** para te identificar.
 
-O Menur utilizará o seu **E-MAIL** para identificar os seus pedidos, evitando que eles se percam.
-
-Optanto pela identificação com Google, Instagram, Apple ID (ou outros), será criada uma conexão para acessar os dados citados e identificar seus próximos acessos.
-
-**NENHUM OUTRO DADO** pessoal será acessado pelo Menur durante este procedimento de identificação.
+**NENHUM OUTRO DADO** pessoal será acessado pelo Menur durante este procedimento.
 
 Se você **NÃO CONCORDA** com o uso dos seus dados pessoais, faça seu pedido diretamente com o estabelecimento à moda antiga.
 
