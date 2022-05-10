@@ -12,7 +12,7 @@ Para que você e seus colegas saibam quem fez o quê, o seu **NOME** poderá ser
 
 O seu **E-MAIL** será visto pelos seus colegas, gerentes e donos do estabelecimento na listagem de colaboradores. É nesta função do Aplicativo que os gerentes convidam novos colaboradores, e este convite é enviado por e-mail.
 
-O Menur coletará alguns dados de uso do Aplicativo, mas vincular ao seu nome. O objetivo é entender o comportamento geral dos usuários para melhorar cada vez mais as funcionalidades.
+O Menur coletará alguns **DADOS DE USO** do Aplicativo, mas vincular ao seu nome. O objetivo é entender o comportamento geral dos usuários para melhorar cada vez mais as funcionalidades.
 
 **NENHUM OUTRO DADO** pessoal será acessado pelo Menur durante o uso.
 
