@@ -4,4 +4,6 @@ Temos o compromisso de oferecer a você documentos práticos e de fácil leitura
 
 - [Uso geral do Aplicatico](aplicativo/geral)
 
+- [Alteração e Remoção dos Dados Pessoais no Aplicativo](aplicativo/dados)
+
 - [Login no Cardápio Digital](cardapio/login)
