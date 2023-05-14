@@ -14,4 +14,4 @@ pelo App em `Ajustes / Preciso de ajuda`.
 
 ## Saiba mais
 
-Conheça também os [Termos de Serviço](../../../termos/aplicativo) do nosso Aplicativo.
+Conheça também algumas informações sobre o [Uso geral do Aplicativo](../geral).
