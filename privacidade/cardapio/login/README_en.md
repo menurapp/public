@@ -18,4 +18,4 @@ If you **DO NOT AGREE** with the use of your personal data, place your order dir
 
 ## Learn more
 
-Also, check out the [Terms of Service](../../../terms/menu) of our Digital Menu.
+Also, check out the [Terms of Service](../../../termos/cardapio) of our Digital Menu.
