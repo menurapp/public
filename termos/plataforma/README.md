@@ -5,7 +5,9 @@ Atualizado em 17 de abril de 2024.
 Para contratar e utilizar a plataforma Menur é imprescindível que você leia e concorde com estes termos. Caso
 contrário, indicamos que não use a plataforma.
 
-Aqui explicamos as funcionalidades do Menur e também as nossas responsabilidades e as suas.
+Aqui explicamos as funcionalidades do Menur, planos e também as nossas responsabilidades e as suas.
+
+Estes termos se aplicam ao mercado no território nacional, no Brasil.
 
 ## Funcionalidades
 
@@ -17,9 +19,9 @@ Os seus clientes podem acessar os cardápios digitais, visualizar os produtos, p
 fazer pedidos e pagamentos diretamente pelo celular, sem espera, sem filas e sem demora.
 
 Sua equipe de atendimento e produção recebem os pedidos no aplicativo exclusivo, disponível nas lojas
-Google Play e App Store. Você e os seus gestores acompanham tudo pelo aplicativo, em tempo real. 
+Google Play e App Store. Você e os seus gestores acompanham tudo pelo aplicativo, em tempo real.
 
-Aqui estão algumas das funcionalidades do Menur:
+Aqui estão algumas funcionalidades do Menur:
 
 - **Cardápio Digital**:
     - Com fotos de alta qualidade.
@@ -29,9 +31,9 @@ Aqui estão algumas das funcionalidades do Menur:
 
 
 - **Autopedido**:
-  - Acesso ao cardápio na mesa via QR Code.
-  - Cliente pede, paga e só depois recebe o produto (comum em atendimento em balcão ou takeaway).
-  - Cliente pede, recebe e paga no final (comum em atendimento de mesa).
+    - Acesso ao cardápio na mesa via QR Code.
+    - Cliente pede, paga e só depois recebe o produto (comum em atendimento em balcão ou takeaway).
+    - Cliente pede, recebe e paga no final (comum em atendimento de mesa).
 
 
 - **Autopagamento**:
@@ -57,9 +59,48 @@ Aqui estão algumas das funcionalidades do Menur:
     - Percentual de adesão ao auto-atendimento.
     - Taxa média de serviço opcional.
     - Tempo de atendimento médio e máximo:
-      - Desempenho dos atendentes
+        - Desempenho dos atendentes
 
 ## Planos
+
+Os planos e adicionais são cobrados mensalmente com base no tamanho do negócio e no tipo de operação. Se você optar
+pelos serviços de autopagamento, há uma taxa percentual sobre o valor transacionado.
+
+## Qual o tamanho do seu negócio?
+
+- **Pequeno negócio** (até R$ 80 mil de faturamento)
+    - Equipe com até 6 usuários no App
+    - Assinatura: R$ 149,90 a/m
+
+
+- **Médio negócio** (de R$ 80 mil a R$ 300 mil)
+    - Equipe com até 20 usuários no App
+    - Assinatura: R$ 249,90 a/m
+
+
+- **Grande negócio** (mais de R$ 300 mil)
+    - Equipe com até 50 usuários no App
+    - Assinatura: R$ 369,90 a/m
+
+### Serviços opcionais
+
+Estes serviços te ajudarão a turbinar a sua operação, mas são opcionais. Eles acrescentam um valor à assinatura e, em
+alguns casos, também uma taxa percentual sobre o valor transacionado.
+
+- **Auto-pagamento na mesa**:
+    - Taxa Pix integrado (não é preciso pedir comprovante ao seu cliente): taxa de 1,4% do valor pago.
+    - **ASSINATURA** da plataforma de pagamento digital: R$ +98,90 a/m.
+
+
+- **Tradução por IA**:
+    - Português, Inglês, Espanhol e Francês.
+    - Quando seu cliente escrever observações no pedido em outra língua, a IA traduzirá automaticamente para a sua
+      equipe.
+    - O seu cliente poderá pesquisar no cardápio usando o idioma de preferência.
+    - **ASSINATURA** da plataforma de tradução: permanecerá **GRATIS** enquanto estiver em fase de testes, logo após
+      será R$ +41,90 a/m (avisaremos com antecedência).
+
+### Serviços de Parceiros
 
 
 
