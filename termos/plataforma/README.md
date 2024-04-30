@@ -136,6 +136,14 @@ cobrança é feita diretamente pelo parceiro. O MENUR não tem responsabilidade 
     - O material mais adequado para o seu caso deve ser combinado diretamente com o parceiro.
     - Os valores devem ser combinados diretamente com o parceiro.
 
+
+- **Treinamento presencial**
+    - É um serviço opcional, pois o app é muito intuitivo e disponibilizamos vídeos explicativos, mas sabemos que às
+      vezes é importante o treinamento no local.
+    - Para isso temos parceiros que podem ir até o seu estabelecimento e treinar a sua equipe.
+    - Os valores devem ser combinados diretamente com o parceiro.
+    - O Menur não tem responsabilidade sobre o serviço prestado pelo parceiro.
+
 ## Responsabilidade
 
 ### Responsabilidades do estabelecimento
