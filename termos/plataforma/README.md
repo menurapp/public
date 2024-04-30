@@ -115,11 +115,11 @@ Para facilitar a usa vida, oferecemos alguns serviços por meio de parceiros ind
 cobrança é feita diretamente pelo parceiro. O MENUR não tem responsabilidade sobre o serviço prestado pelo parceiro.
 
 - **Cadastro do Cardápio**
-    - O cadastro do cardápio pelo app é muito fácil, mas sabemos que às vezes o tempo é curto.
+    - O cadastro do cardápio pelo App é muito fácil, mas sabemos que às vezes o tempo é curto.
     - O parceiro faz o cadastro para você.
     - Valores baseados na quantidade de produtos cadastrados.
     - Reunião on-line ao final do cadastro para explicar alguns detalhes e tirar dúvidas.
-    - Ao final você terá autonomia para modificar e cadastrar mais produtos direto no app.
+    - Ao final você terá autonomia para modificar e cadastrar mais produtos direto no App.
     - Os valores devem ser combinados diretamente com o parceiro.
 
 
@@ -131,14 +131,14 @@ cobrança é feita diretamente pelo parceiro. O MENUR não tem responsabilidade 
 
 - **QR Codes prontos**
     - O parceiro entrega os QR Codes prontos para você colar nas mesas.
-    - Ativação dos QR Codes direto no app.
+    - Ativação dos QR Codes direto no App.
     - Valores baseados na quantidade de mesas e no material do produto.
     - O material mais adequado para o seu caso deve ser combinado diretamente com o parceiro.
     - Os valores devem ser combinados diretamente com o parceiro.
 
 
 - **Treinamento presencial**
-    - É um serviço opcional, pois o app é muito intuitivo e disponibilizamos vídeos explicativos, mas sabemos que às
+    - É um serviço opcional, pois o App é muito intuitivo e disponibilizamos vídeos explicativos, mas sabemos que às
       vezes é importante o treinamento no local.
     - Para isso temos parceiros que podem ir até o seu estabelecimento e treinar a sua equipe.
     - Os valores devem ser combinados diretamente com o parceiro.
