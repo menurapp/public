@@ -68,19 +68,19 @@ pelos serviços de autopagamento, há uma taxa percentual sobre o valor transaci
 
 ### Do tamanho do seu negócio
 
-- **PLANO STARTER** (R$ 150,00 a/m)
+- **Plano STARTER** (R$ 150,00 a/m)
     - Para pequenos que faturam até R$ 80 mil por mês
     - Equipe com até 6 usuários no App
       <!-- - Assinatura: R$ 149,90 a/m -->
 
 
-- **PLANO BUSINESS** (R$ 250,00 a/m)
+- **Plano BUSINESS** (R$ 250,00 a/m)
     - Para negócios que faturam de R$ 80 mil a R$ 300 mil por mês
     - Equipe com até 20 usuários no App
       <!-- - Assinatura: R$ 249,90 a/m -->
 
 
-- **PLANO ENTERPRISE** (R$ 370,00 a/m)
+- **Plano ENTERPRISE** (R$ 370,00 a/m)
     - Para negócios que faturam mais de R$ 300 mil por mês
     - Equipe com até 50 usuários no App
       <!-- - Assinatura: R$ 369,90 a/m -->
@@ -90,7 +90,7 @@ pelos serviços de autopagamento, há uma taxa percentual sobre o valor transaci
 Estes serviços te ajudarão a turbinar a sua operação, mas são opcionais. Eles acrescentam um valor à assinatura e, em
 alguns casos, também uma taxa sobre o valor transacionado.
 
-- **Tradução por IA** (R$ 0,00 a/m)
+- **PLUS Tradução por IA** (R$ 0,00 a/m)
     - Português, Inglês, Espanhol e Francês.
     - Quando seu cliente escrever observações no pedido em outra língua, a IA traduzirá automaticamente para a sua
       equipe.
@@ -100,7 +100,7 @@ alguns casos, também uma taxa sobre o valor transacionado.
       <!-- será R$ +41,90 a/m (avisaremos com antecedência). -->
 
 
-- **Auto-pagamento** (R$ 100,00 a/m)
+- **PLUS Auto-pagamento** (R$ 100,00 a/m)
     - Seu cliente paga pelo celular, sem precisar ocupar seu funcionário.
     - **Meios de autopagamento:**
         - Pix Integrado:
