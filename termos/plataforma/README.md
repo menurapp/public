@@ -169,7 +169,3 @@ bom funcionamento.
 Temos o compromisso com a privacidade dos seus dados. Para qualquer dado pessoal que precisarmos, explicaremos o
 propósito e o que será feito. Não repassaremos seus dados pessoais desnecessariamente e, sempre que passarmos, será para
 viabilizar o serviço. Sempre deixaremos claro nos links de aviso de privacidade.
-
-
-
-

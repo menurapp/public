@@ -7,3 +7,9 @@ Temos o compromisso de oferecer a você documentos práticos e de fácil leitura
 - [Alteração e Remoção dos Dados Pessoais no Aplicativo](aplicativo/dados)
 
 - [Login no Cardápio Digital](cardapio/login)
+
+- [Pagamento no Cardápio com Pix](cardapio/pagamento/pix)
+
+- [Pagamento no Cardápio com Cartão](cardapio/pagamento/cartao)
+
+- [Pagamento no Cardápio com Carteira Digital](cardapio/pagamento/carteira_digital)
