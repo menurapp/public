@@ -6,9 +6,9 @@ Respeitamos sua privacidade durante o processo de pagamento.
 
 Para maior comodidade no pagamento, oferecemos a opção de pagamento com as principais carteiras digitais: Apple Pay e Google Pay.
 
-O pagamento será processado pelo nosso parceiro, uma empresa mundialmente conhecida no ramo de pagamentos: a Stripe Payments, seguindo os mais altos padrões internacionais de segurança em pagamentos digitais.
+O pagamento será processado pelo nosso parceiro, uma empresa mundialmente conhecida no ramo: a Stripe Payments, seguindo os mais altos padrões internacionais de segurança.
 
-Toda intermediação do pagamento será feita entre a Stripe e a Apple (ou Google). Seus dados pessoais, ou dados sensíveis do seu cartão, NÃO SERÃO armazenados na plataforma MENUR.
+Toda intermediação do pagamento será feita entre a Stripe e a Apple (ou Google). Os dados sensíveis do seu cartão **NÃO SERÃO** armazenados na plataforma MENUR.
 
 ## Adicional de processamento
 
