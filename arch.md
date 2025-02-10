@@ -152,7 +152,7 @@ Sob a ótica dos funcionários do estabelecimento, é por onde tudo começa.
 - **Cancelamento de Pedidos**: Um processo sensível, que afeta produção e controle de caixa.
   Pedidos recebidos não podem ser cancelados pelo cliente, e se já estiverem em produção,
   apenas o app mobile MENUR pode cancelá-los. Pedidos pagos exigem cancelamento do pagamento.
-  Para mais detalhes, consulte [Pagamentos]().
+  Para mais detalhes, consulte o Domínio Pagamentos.
 
 ## 3.3. Domínio Identidade e Acesso
 
