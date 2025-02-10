@@ -44,7 +44,7 @@ em contêineres [Docker](https://www.docker.com). As camadas são:
 
 - **Camada de apresentação REST**: Fornece endpoints para o **módulo de cardápio** (cliente do
   estabelecimento), **módulo do app mobile** (garçons, caixa, cozinha e gestores) e **módulo de
-  integração** (sistemas parceiros, atualmente só o [Real Software](#38-domínio-integração)).
+  integração** (sistemas parceiros, atualmente só o [Real Software](https://www.instagram.com/realsoftwares/).
   Parte das regras de negócio, idealmente na camada de Caso de Uso, acaba aparecendo aqui.
 
 - **Camada de negócio**: Agrupa as regras de negócio bem definidas, que podem ser reutilizadas
@@ -53,7 +53,7 @@ em contêineres [Docker](https://www.docker.com). As camadas são:
 
 - **Camada de Integração**: Lida com persistência em banco de dados e comunicação com sistemas
   externos. Aqui ficam os componentes de acesso a dados e as integrações com serviços de
-  pagamento ([Stripe Payments](https://stripe.com), Pix, etc.), login, envio de e-mails e
+  pagamento ([Stripe Payments](https://docs.stripe.com/api), Pix, etc.), login, envio de e-mails e
   outros.
 
 ## 2.2. Detalhando a Camada de Integração
@@ -66,7 +66,7 @@ Esta camada se divide em duas grandes partes:
   gerando muito acoplamento. Qualquer alteração em um objeto gerenciado dispara um `UPDATE`, e
   se um atributo `LAZY` for acessado, ocorre um novo `SELECT`. Esse acoplamento está nos planos
   de melhoria na futura
-  [arquitetura proposta neste link](#2-arquitetura) (exemplo interno).
+  arquitetura proposta (em construção).
 
 - **Cliente de outros sistemas**: Abriga integrações diversas, como pagamento (Pix, cartões),
   logins sociais (Apple ID, Google ID) e envio de comunicações (e-mail, SMS, push). Utiliza o
@@ -171,8 +171,8 @@ Garante a segurança da plataforma, controlando níveis de acesso e confidencial
 
 - **Acesso dos integradores**: O MENUR não faz gestão de estoque, ficha técnica, controle fiscal,
   compras de insumos ou relatórios gerenciais. Disponibiliza, porém, uma API de integração
-  (inspirada em [iFood](https://www.ifood.com.br) e
-  [Open Delivery Abrasel](https://opendelivery.org.br)) para que sistemas de gestão obtenham
+  (inspirada em [iFood](https://developer.ifood.com.br/pt-BR/docs/guides#primeiros-passos) e
+  [Open Delivery Abrasel](https://www.opendelivery.com.br) para que sistemas de gestão obtenham
   dados de pedidos e pagamentos. Cada estabelecimento gera uma chave de acesso para o integrador
   que usar essa API.
 
@@ -183,12 +183,12 @@ automática. Métodos tradicionais (não integrados) podem ser registrados manua
 
 - **Pagamento com Pix**: O cliente copia o código Pix e paga no app bancário. A confirmação é
   instantânea, tanto no cardápio quanto no app MENUR. O processo passa pelo
-  [Banco Central do Brasil](https://www.bcb.gov.br), e, uma vez confirmado, o banco parceiro
+  [Banco Central do Brasil](https://www.bcb.gov.br/estabilidadefinanceira/pix), e, uma vez confirmado, o banco parceiro
   (ex.: Efí Bank) notifica o MENUR.
 
 - **Pagamento com Carteira Digital**: Integração com Google Pay e Apple Pay. O cliente escolhe
   um cartão cadastrado, e a confirmação aparece no cardápio e no app MENUR, mediada pela
-  [Stripe Payments](https://stripe.com).
+  [Stripe Payments](https://docs.stripe.com/api).
 
 - **Registro Manual de Pagamento**: Se o cliente não optar pelo auto-pagamento, o
   estabelecimento recebe em cartão, dinheiro etc. e registra manualmente no app MENUR. A
@@ -286,7 +286,7 @@ também é essencial para atender clientes estrangeiros.
 ## 4.1. Tradução por IA
 
 Todos os dados de produtos cadastrados são traduzidos automaticamente para outros idiomas
-usando o [Azure Translator](https://azure.microsoft.com/services/cognitive-services/translator/).
+usando o [Azure Translator](https://portal.customtranslator.azure.ai).
 Há um modelo de linguagem especializado no contexto de bares e restaurantes, produzindo
 traduções mais adequadas.
 
