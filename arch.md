@@ -1,4 +1,4 @@
-- [Introdução](#introdução)
+- [1. Introdução](#1-introdução)
 - [2. Arquitetura](#2-arquitetura)
   - [2.1. Modelo em Camadas](#21-modelo-em-camadas)
   - [2.2. Detalhando a Camada de Integração](#22-detalhando-a-camada-de-integração)
@@ -23,14 +23,12 @@
 
 ---
 
-# Introdução
+# 1. Introdução
 
 Este documento apresenta uma visão geral do back-end do MENUR, contextualizando sua
 infraestrutura, organização de pastas e pacotes, além dos domínios e subdomínios que compõem
 a plataforma. A compreensão detalhada desse cenário permite analisar o modelo atual e guiar o
 desenvolvimento de uma futura arquitetura com processamento em borda.
-
----
 
 # 2. Arquitetura
 
@@ -332,7 +330,6 @@ estrangeiros sem dificuldades.
 
 Até o momento, o app mobile do MENUR não oferece suporte a i18n. Isso não ocorre por falta de
 necessidade, mas sim por não ter sido priorizado em seu roadmap de desenvolvimento.
-
 
 # 5. Finalização
 
