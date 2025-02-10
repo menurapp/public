@@ -1,15 +1,15 @@
 # 1. Arquitetura
 
 O objetivo deste documento é mapear o back-end atual para permitir sua análise e futura
-reestruturação rumo a uma arquitetura com processamento em borda. Nesse novo modelo, boa parte
-do back-end será migrada para uma aplicação Desktop que rodará dentro da rede local do
+reestruturação rumo a uma arquitetura com processamento em borda. Nesse novo modelo, boa
+parte do back-end será migrada para uma aplicação Desktop que rodará dentro da rede local do
 estabelecimento. Para mais detalhes desta proposta de arquitetura, [acesse este link]().
 
 ## 1.1. Modelo em Camadas
 
 A arquitetura atual do back-end, hospedado na Azure, é um monolito desenvolvido em Kotlin com
-Quarkus, compilado com GraalVM e implantado em contêineres Docker. Ela segue o modelo em camadas,
-no qual temos:
+Quarkus, compilado com GraalVM e implantado em contêineres Docker. Ela segue o modelo em
+camadas, no qual temos:
 
 - **Camada de apresentação REST**: Responsável por fornecer todos os endpoints necessários para
   o **módulo de cardápio** (acessado pelo cliente do estabelecimento), para o **módulo do app
@@ -35,15 +35,15 @@ Podemos subdividir a camada de integração em duas grandes responsabilidades:
   alguns casos. Os dados carregados do banco transitam por todas as camadas como objetos
   gerenciados pelo Hibernate JPA. Isso exige que as camadas entendam que qualquer manipulação
   na entidade gerará um `UPDATE` no banco. Da mesma forma, se um atributo mapeado como `LAZY`
-  for acessado, um novo `SELECT` será executado. Arquiteturalmente, esse comportamento provoca
-  muito acoplamento e expõe o Hibernate a todas as camadas, sendo um ponto de melhoria para a
-  próxima [arquitetura proposta neste link]().
+  for acessado, um novo `SELECT` será executado. Arquiteturalmente, esse comportamento
+  provoca muito acoplamento e expõe o Hibernate a todas as camadas, sendo um ponto de
+  melhoria para a próxima [arquitetura proposta neste link]().
 
 - **Cliente de outros sistemas**: O MENUR integra com diversos sistemas e plataformas para, por
-  exemplo, emitir e processar pagamentos (Pix e cartão), permitir login com Apple ID e Google ID,
-  enviar e-mails, SMS e notificações push, entre outros. Todos os detalhes de acesso a sistemas
-  externos estão centralizados nesta camada, usando o Resteasy Client. Os parâmetros de
-  integração podem ser configurados via variáveis de ambiente, o que facilita a configuração e
+  exemplo, emitir e processar pagamentos (Pix e cartão), permitir login com Apple ID e Google
+  ID, enviar e-mails, SMS e notificações push, entre outros. Todos os detalhes de acesso a
+  sistemas externos estão centralizados nesta camada, usando o Resteasy Client. Os parâmetros
+  de integração podem ser configurados via variáveis de ambiente, facilitando a configuração e
   manutenção da aplicação na Azure.
 
 ## 1.3. Organização das Pastas e Packages
@@ -56,8 +56,8 @@ Em um **Primeiro Nível**, na raiz do projeto, existem as pastas `src`, `doc` e 
 - `src`: Contém todo o código-fonte da aplicação, além de scripts e artefatos relacionados
   diretamente ao funcionamento e build do projeto. É a pasta principal.
 - `doc`: Contém toda a documentação do projeto, incluindo este documento.
-- `target`: Contém os artefatos gerados pelo build do projeto, como arquivos `.class`, `.jar` e
-  demais derivados do build com Maven.
+- `target`: Contém os artefatos gerados pelo build do projeto, como arquivos `.class`, `.jar`
+  e demais derivados do build com Maven.
 
 Em um **Segundo Nível**, dentro de `src`, que é a pasta mais importante, encontramos:
 
@@ -75,66 +75,69 @@ arquitetura:
 - `src/main/kotlin/core`: Abriga a camada de negócios (`business`), a camada de persistência
   (`persistence`), as entidades JPA (`entity`), que permeiam todas as camadas de forma
   transversal, e as exceções (`exception`) específicas da regra de negócio.
-- `src/main/kotlin/client`: Toda a lógica de integração com sistemas externos fica aqui. Cada
-  sistema possui sua própria pasta.
+- `src/main/kotlin/client`: Toda a lógica de integração com sistemas externos fica aqui.
+  Cada sistema possui sua própria pasta.
 - `src/main/kotlin/rest`: Camada de apresentação REST. Contém todos os endpoints da aplicação,
   versionados. Os dados retornados estão em `data`, enquanto os endpoints em si estão em
   `service`.
 - `src/main/kotlin/util`: Reúne utilitários usados por mais de uma camada, como a classe
   `Logger`, empregada em todas as camadas para registro de logs.
-- `src/main/kotlin/sdk`: Contém a configuração ou implementação de funcionalidades transversais,
-  como monitoramento do back-end, cache, controle de acesso e transações, entre outros.
+- `src/main/kotlin/sdk`: Contém a configuração ou implementação de funcionalidades
+  transversais, como monitoramento do back-end, cache, controle de acesso e transações, entre
+  outros.
 - Demais pastas: Não serão detalhadas neste documento, pois são muito específicas e não
   contribuem significativamente para o entendimento geral da arquitetura do MENUR.
 
 # Domínios e Sub-domínios
 
-A plataforma MENUR possui complexidade relativamente alta, não por grandes desafios tecnológicos,
-mas pela quantidade de funcionalidades e detalhes de implementação que visam oferecer a melhor
-usabilidade possível — tanto para clientes quanto para funcionários — sem abrir mão da segurança
-dos processos e dados.
+A plataforma MENUR possui complexidade relativamente alta, não por grandes desafios
+tecnológicos, mas pela quantidade de funcionalidades e detalhes de implementação que visam
+oferecer a melhor usabilidade possível — tanto para clientes quanto para funcionários — sem
+abrir mão da segurança dos processos e dados.
 
 Para ter uma visão geral das funcionalidades do MENUR, listamos os domínios e subdomínios que
 fazem parte do back-end atual hospedado na Azure:
 
 - **Cardápio**: Sob a ótica do cliente, é por onde tudo começa.
 
-  - **Exibição do Cardápio**: Responsável por buscar dados que compõem o cardápio, como categorias,
-    produtos, fotos, opções, observações, personalizações de layout (por exemplo, logotipo e cor),
-    ocultamento de itens em falta e escolha do idioma correto. Esses endpoints são acessados pelos
-    clientes no próprio celular.
+  - **Exibição do Cardápio**: Responsável por buscar dados que compõem o cardápio, como
+    categorias, produtos, fotos, opções, observações, personalizações de layout (por exemplo,
+    logotipo e cor), ocultamento de itens em falta e escolha do idioma correto. Esses endpoints
+    são acessados pelos clientes no próprio celular.
   - **Cadastro dos Produtos**: Permite criar novos produtos ou alterar os existentes, incluindo
-    categorias, fotos, preços e códigos de integração com sistemas de gestão (atualmente, apenas
-    o Real Software). Esses endpoints são acessados pelo app mobile MENUR.
+    categorias, fotos, preços e códigos de integração com sistemas de gestão (atualmente,
+    apenas o Real Software). Esses endpoints são acessados pelo app mobile MENUR.
   - **Ocultamento de Produtos**: Possibilita ao estabelecimento ocultar produtos em falta ou que
     não devam mais ser exibidos no cardápio para os clientes.
 
 - **Pedidos**: Sob a ótica dos funcionários do estabelecimento, é por onde tudo começa.
 
   - **Lançamento de Pedidos**: Tanto o cliente quanto a equipe podem lançar pedidos. No
-    autoatendimento, o cliente faz isso diretamente no cardápio via celular. No caso do atendente,
-    é usado o app mobile MENUR, exclusivo para a equipe, pois nem sempre o cliente quer ou pode
-    fazer o pedido sozinho.
-  - **Recebimento de Pedidos**: Recebe pedidos enviados pelo cardápio ou pelo próprio app MENUR
+    autoatendimento, o cliente faz isso diretamente no cardápio via celular. No caso do
+    atendente, é usado o app mobile MENUR, exclusivo para a equipe, pois nem sempre o cliente
+    quer ou pode fazer o pedido sozinho.
+  - **Recebimento de Pedidos**: Recebe pedidos enviados pelo cardápio ou pelo próprio app MENUR,
     usado pelos funcionários. Esses endpoints são acessados pelo app mobile MENUR.
-  - **Status dos Pedidos**: Permite visualizar e alterar o status, do recebimento até a entrega.
-    Esses endpoints são acessados pelo app mobile MENUR, mas o status também é visível para os
-    clientes no cardápio.
+  - **Status dos Pedidos**: Permite visualizar e alterar o status, do recebimento até a
+    entrega. Esses endpoints são acessados pelo app mobile MENUR, mas o status também é
+    visível para os clientes no cardápio.
   - **Cancelamento de Pedidos**: O cancelamento é um processo crítico que afeta produção e
     controle de caixa. Pedidos recebidos não podem mais ser cancelados pelo cliente e, se já
     estiverem com o estabelecimento, só podem ser cancelados pelo app mobile MENUR. Pedidos
     pagos geram um cancelamento do pagamento. Para mais detalhes, veja [Pagamentos]().
 
-- **Identidade e Acesso**: Garante a segurança da plataforma, gerenciando acesso e confidencialidade.
+- **Identidade e Acesso**: Garante a segurança da plataforma, gerenciando acesso e
+  confidencialidade.
 
-  - **Convites para novos funcionários**: Para usar o app mobile MENUR, funcionários precisam de
-    um convite de alguém com nível de acesso superior ou igual. Ao ser convidado, o novo
+  - **Convites para novos funcionários**: Para usar o app mobile MENUR, funcionários precisam
+    de um convite de alguém com nível de acesso superior ou igual. Ao ser convidado, o novo
     funcionário recebe um e-mail com link para baixar o app e criar senha.
   - **Nível de acesso dos funcionários**: Nem todos podem ver todas as informações ou acessar
     todas as funcionalidades. O nível de acesso é controlado por um administrador (funcionário
     ou proprietário). Um funcionário não pode conceder a si mesmo ou a outros um nível acima
-    do seu. Alguns níveis têm acesso a dados financeiros, cancelamento de pedidos e configurações
-    de pagamento, enquanto outros não. Esses endpoints são acessados pelo app mobile MENUR.
+    do seu. Alguns níveis têm acesso a dados financeiros, cancelamento de pedidos e
+    configurações de pagamento, enquanto outros não. Esses endpoints são acessados pelo app
+    mobile MENUR.
   - **Login dos funcionários**: Para acessar o app, é preciso login com e-mail e senha. Em caso
     de esquecimento, é possível resetar a senha, e um e-mail com instruções é enviado. Esses
     endpoints são acessados pelo app mobile MENUR.
@@ -144,17 +147,17 @@ fazem parte do back-end atual hospedado na Azure:
   - **Acesso dos integradores**: O MENUR não faz controle de estoque, ficha técnica, controle
     fiscal, compras de insumos nem relatórios gerenciais. Em vez disso, oferece uma API de
     integração nos moldes do iFood e do Open Delivery da Abrasel, para que sistemas de gestão
-    obtenham dados de pedidos e pagamentos. Para acessar a API de um estabelecimento, é preciso
-    gerar uma chave de acesso para o integrador.
+    obtenham dados de pedidos e pagamentos. Para acessar a API de um estabelecimento, é
+    preciso gerar uma chave de acesso para o integrador.
 
-- **Pagamento**: O MENUR oferece a possibilidade de auto-pagamento por Pix, Google Pay e Apple Pay,
-  com baixa e conciliação automática. Também é possível usar métodos tradicionais (não integrados)
-  e registrar manualmente o pagamento depois.
+- **Pagamento**: O MENUR oferece a possibilidade de auto-pagamento por Pix, Google Pay e Apple
+  Pay, com baixa e conciliação automática. Também é possível usar métodos tradicionais (não
+  integrados) e registrar manualmente o pagamento depois.
 
-  - **Pagamento com Pix**: Opção de auto-pagamento em que o cliente copia o código Copia&Cola e
-    faz o pagamento no próprio app bancário. A confirmação ocorre automaticamente no cardápio e no
-    app mobile MENUR. O processo é intermediado pelo Banco Central e, ao ser confirmado, o banco
-    parceiro (Efí Bank) notifica o MENUR.
+  - **Pagamento com Pix**: Opção de auto-pagamento em que o cliente copia o código Copia&Cola
+    e faz o pagamento no próprio app bancário. A confirmação ocorre automaticamente no
+    cardápio e no app mobile MENUR. O processo é intermediado pelo Banco Central e, ao ser
+    confirmado, o banco parceiro (Efí Bank) notifica o MENUR.
   - **Pagamento com Carteira Digital**: Integração com Google Pay e Apple Pay. O cliente inicia
     o pagamento no cardápio e escolhe o cartão cadastrado na carteira digital. A confirmação
     ocorre no cardápio e no app mobile MENUR. A Stripe Payments intermedia esse processo.
@@ -166,40 +169,57 @@ fazem parte do back-end atual hospedado na Azure:
 - **Sincronização**: O MENUR mobile segue o conceito de app local-first, com UI de
   responsividade instantânea. Para isso, todos os dados necessários precisam estar disponíveis
   localmente no app. O back-end oferece uma API REST para que os apps busquem dados atualizados
-  a partir de um determinado timestamp. Para que esse serviço tenha um tempo de resposta viável,
-  cada uma das mais de 30 tabelas é acessada em paralelo, e o resultado é unificado em uma única
-  resposta. Por questão de segurança, nem todos os dados são disponibilizados, nem permanecem
-  com a mesma estrutura. Cabe ao app mobile MENUR fazer as requisições e interpretar os dados
-  para carregá-los na base local do dispositivo.
+  a partir de um determinado timestamp. Para que esse serviço tenha um tempo de resposta
+  viável, cada uma das mais de 30 tabelas é acessada em paralelo, e o resultado é unificado em
+  uma única resposta. Por questão de segurança, nem todos os dados são disponibilizados, nem
+  mantêm a mesma estrutura. Cabe ao app mobile MENUR fazer as requisições e interpretar os
+  dados para carregá-los na base local do dispositivo.
 
-- **Mesas**: _Escrever..._
+- **Mesas**: O cadastro de mesas é importante para saber de onde vem o pedido. Cada mesa deve
+  conter um QR Code que a identifica unicamente. É possível cadastrar, juntar mesas e até
+  mesmo definir se o pagamento deve ser feito junto ao pedido ou somente após o consumo.
 
-  - **Cadastro de Mesas**: Escrever..
-  - **Junção de Mesas**: Escrever..
-  - **Pagamento antecipado**: Escrever..
+  - **Cadastro de Mesas**: Há duas formas de cadastrar mesas. Uma delas é digitando os dados da
+    mesa diretamente no app mobile MENUR. A outra é adquirindo um lote de QR Codes com um dos
+    parceiros do MENUR e ativá-los pelo app.
+  - **Junção de Mesas**: É possível juntar mesas no app mobile MENUR para que sejam vistas e
+    tratadas como se fossem uma só. A separação das mesas também é feita pelo app.
+  - **Pagamento antecipado**: Alguns estabelecimentos preferem que o pagamento dos pedidos seja
+    feito antes do preparo e do consumo. Outros preferem que o pagamento aconteça no final. É
+    possível definir o comportamento dos pedidos feitos na mesa por meio do app mobile MENUR.
 
-- **QR Codes**: _Escrever..._
+- **QR Codes**: A principal forma de acesso dos clientes ao cardápio é a leitura do QR Code das
+  mesas, feita diretamente pelo celular.
 
-- **Integração**: Como o MENUR não oferece funcionalidades de controle de estoque, ficha técnica,
-  controle fiscal, compras de insumos nem relatórios gerenciais, estabelecimentos que não são
-  MEI normalmente precisam contratar um sistema de gestão. Para que esses sistemas possam
-  acessar os dados gerados no MENUR — como pedidos e pagamentos — é disponibilizada uma API de
-  integração de acesso restrito aos integradores parceiros. Atualmente, o único sistema de gestão
-  integrado é o Real Software. A estrutura de dados para integração segue padrões de mercado,
-  mas com detalhamento avançado do status de cada item do pedido.
+  - **Impressão dos QR Codes**: É possível gerar QR Codes individuais das mesas pelo app mobile
+    MENUR. Nessa opção, cria-se um arquivo PDF com as instruções para impressão em gráfica.
+  - **Criação de Lotes**: Essa função é restrita aos Parceiros de QR Codes MENUR. Trata-se de
+    um módulo para criação, impressão e gestão de lotes de QR Codes virgens, que podem ser
+    vendidos a qualquer estabelecimento para posterior ativação.
+  - **Ativação do QR Code**: Os QR Codes virgens adquiridos por meio de um Parceiro MENUR
+    precisam ser ativados pelo estabelecimento que os adquiriu. A ativação é feita pela
+    equipe do estabelecimento, diretamente no app mobile MENUR.
 
-  - **Padrão iFood**: O iFood disponibiliza uma API muito bem documentada e amplamente usada no
-    mercado por integradores parceiros. O MENUR segue o mesmo padrão para reduzir a curva de
-    aprendizado dos parceiros.
+- **Integração**: Como o MENUR não oferece funcionalidades de controle de estoque, ficha
+  técnica, controle fiscal, compras de insumos nem relatórios gerenciais, os estabelecimentos
+  que não são MEI normalmente contratam um sistema de gestão. Para que esses sistemas acessem
+  os dados gerados no MENUR — como pedidos e pagamentos — é disponibilizada uma API de
+  integração restrita a parceiros. Atualmente, o único sistema de gestão integrado é o Real
+  Software. A estrutura de dados para integração segue padrões de mercado, mas com detalhamento
+  avançado do status de cada item do pedido.
+
+  - **Padrão iFood**: O iFood disponibiliza uma API muito bem documentada e amplamente usada
+    no mercado por integradores parceiros. O MENUR segue o mesmo padrão para reduzir a curva
+    de aprendizado dos parceiros.
   - **Padrão Open Delivery Abrasel**: A Abrasel (Associação Brasileira de Bares e Restaurantes)
     lançou uma especificação para padronizar as integrações entre sistemas de Delivery e de
-    Gestão. Por enquanto, não é muito aceita pelo mercado, mas a Abrasel continua investindo para
-    que o padrão seja adotado. Atualmente, não há implementação específica do Open Delivery no
-    MENUR, mas vale ficar atento a esse movimento.
+    Gestão. Por enquanto, não é muito aceita pelo mercado, mas a Abrasel continua investindo
+    para que o padrão seja adotado. Atualmente, não há implementação específica do Open
+    Delivery no MENUR, mas vale ficar atento a esse movimento.
 
-  > **_OBS:_** É importante destacar que o módulo de integração não contempla as integrações com
-  > plataformas de pagamento, nem com Google ou Apple para autenticação, nem outras integrações
-  > que o MENUR estabelece com terceiros.
+  > **_OBS:_** É importante destacar que o módulo de integração não contempla as integrações
+  > com plataformas de pagamento, nem com Google ou Apple para autenticação, nem outras
+  > integrações que o MENUR estabelece com terceiros.
 
 - **Endereço**: Para cadastro e busca por endereços, o MENUR usa a API do Google Maps em várias
   partes da plataforma, melhorando a usabilidade ao cadastrar endereços, definir locais de
@@ -207,15 +227,15 @@ fazem parte do back-end atual hospedado na Azure:
 
   - **Endereço do estabelecimento**: Para calcular a taxa de entrega, é essencial saber a
     localização do estabelecimento. Ao cadastrar esse endereço, ocorre uma pré-carga de dados
-    como Estado, Cidade e Bairro na base de dados do MENUR. Esses endpoints são acessados pelo
-    app mobile MENUR.
+    como Estado, Cidade e Bairro na base de dados do MENUR. Esses endpoints são acessados
+    pelo app mobile MENUR.
   - **Endereço do usuário**: Para calcular a taxa de entrega, também é importante conhecer o
-    endereço do cliente. O cadastro dispara uma pré-carga de dados como Estado, Cidade e Bairro
-    na base do MENUR. Esses endpoints são acessados pelos clientes no próprio celular.
-  - **Taxas e locais de entrega**: É possível definir a área de entrega e suas respectivas taxas.
-    O cadastro da área de entrega usa o Google Maps para buscar por Estado, Cidade, Bairro, Rua
-    ou até mesmo um endereço específico. Da mesma forma, podem ser definidos locais restritos
-    onde não há cobertura de entrega.
+    endereço do cliente. O cadastro dispara uma pré-carga de dados como Estado, Cidade e
+    Bairro na base do MENUR. Esses endpoints são acessados pelos clientes no próprio celular.
+  - **Taxas e locais de entrega**: É possível definir a área de entrega e suas respectivas
+    taxas. O cadastro da área de entrega usa o Google Maps para buscar por Estado, Cidade,
+    Bairro, Rua ou até mesmo um endereço específico. Da mesma forma, podem ser definidos
+    locais restritos onde não há cobertura de entrega.
 
 - **Gestão**: _Escrever..._
 
