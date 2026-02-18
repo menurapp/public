@@ -1,13 +1,7 @@
 # Política de Privacidade
 
-Temos o compromisso de oferecer a você documentos práticos e de fácil leitura. Aqui você encontra nossa política de privacidade separada por tópicos de interesse:
+Temos o compromisso de oferecer documentos práticos e de fácil leitura. Aqui encontra a nossa política de privacidade separada por tópicos de interesse:
 
-- [Uso geral do Aplicatico](aplicativo/geral)
+- [Uso geral da Plataforma](aplicativo/geral)
 
-- [Alteração e Remoção dos Dados Pessoais no Aplicativo](aplicativo/dados)
-
-- [Login no Cardápio Digital](cardapio/login)
-
-- [Pagamento no Cardápio com Cartão](cardapio/pagamento/cartao)
-
-- [Pagamento no Cardápio com Carteira Digital](cardapio/pagamento/carteira_digital)
+- [Alteração e Remoção dos Dados Pessoais na Plataforma](aplicativo/dados)
